@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    width:auto;
+    height: auto;
+}
+.one{
+    position:relative;
+    background-color: grey;
+    border-color: black;
+    border:solid ;
+    margin:10px;
+}
+
+.two{
+    position:relative;
+    background-color: grey;
+    border-color: black;
+    border:solid ;
+    margin:10px;
+   
+}
+
+.three{
+    position:relative;
+    background-color: grey;
+    border-color: black;
+    border:solid ;
+    margin:10px;
+    
+}
+
+.menu{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'cursive';
+    text-align: center;
+    
+}
+
+.heading2{
+    border:solid;
+    color:azure;
+    border-color:black;
+    width:130px;
+    position:absolute;
+    top:0;
+    right:0;
+    border-top: none;
+    border-right: none;
+    background-color: brown;
+    font-family: 'cursive';
+    text-align: center;;
+    font-weight: bold;
+    font-size: large;
+}
+.heading1{
+    border:solid;
+    border-color:black;
+    width:130px;
+    position:absolute;
+    top:0;
+    right:0;
+    border-top: none;
+    border-right: none;
+    background-color:salmon;
+    font-family: 'cursive';
+    text-align: center;;
+    font-weight: bold;
+    font-size: large;
+}
+.heading3{
+    border:solid;
+    border-color:black;
+    width:130px;
+    position:absolute;
+    top:0;
+    right:0;
+    border-top: none;
+    border-right: none;
+    background-color:green;
+    font-family: 'cursive';
+    text-align: center;;
+    font-weight: bold;
+    font-size: large;
+}
+.para{
+    padding-top:20px;
+    height: auto;
+    width: auto;
+}
+@media (min-width:992px){
+    .one,.two,.three{
+        float:left;
+        width:30%; 
+    }
+}
+
+@media (min-width:768px)and (max-width:991px)
+{
+    .one,.two{
+         float:left;
+        width:45%;
+    }
+    .three{
+        float:left;
+        width:90%;
+    }
+}
+@media  (max-width:767px) and (min-width:10px)
+{
+    
+    .e{
+        display: block;
+        width:90%;
+         float:left;
+    }
+     
+    .w{
+        
+        width:90%;
+        float:left;
+    }
+     
+    .q{
+        
+        width:90%;
+        float:left;
+        
+    }
+}
